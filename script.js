@@ -50,7 +50,6 @@ function generatePassword(lower, upper, number, symbol, length) {
     }
 
     const finalPassword = generatedPassword.slice(0, length)
-
     return finalPassword
 }
 
